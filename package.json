@@ -1,0 +1,32 @@
+{
+  "name": "cli-notes",
+  "version": "1.0.5",
+  "description": "A simple notes-app in CLI for notes management with mongodb!!",
+  "main": "",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yTakkar/CLI-Notes.git"
+  },
+  "author": "yTakkar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yTakkar/CLI-Notes/issues"
+  },
+  "homepage": "https://github.com/yTakkar/CLI-Notes#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "commander": "^2.11.0",
+    "handy-log": "^1.0.3",
+    "handy-timeago": "^1.0.1",
+    "inquirer": "^3.3.0",
+    "mongoose": "4.10.8"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0"
+  },
+  "preferGlobal": true,
+  "bin": "./cli-notes.js"
+}
